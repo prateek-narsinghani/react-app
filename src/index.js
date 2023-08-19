@@ -32,10 +32,19 @@ function MainContent() {
   return <ul>{fruitItems}</ul>;
 }
 
+function Footer() {
+  return (
+    <footer>
+      <small>Copyright @prateek-narsinghani</small>
+    </footer>
+  )
+}
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<div>
   <NavBar />
   <MainContent />
+  <Footer />
 </div>)
 
