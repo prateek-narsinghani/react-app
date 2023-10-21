@@ -1,6 +1,6 @@
 // we are importing images because when webpack 
 // does its thing the relative path doesn't break
-import reactLogo from "./images/logo192.png"
+import reactLogo from "../images/logo192.png"
 
 
 function NavBar() {
