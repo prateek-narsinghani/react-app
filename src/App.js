@@ -8,7 +8,6 @@ export default function App() {
         <div id="app">
           <NavBar />
           <MainContent />
-          <DestinationCard />
           <Footer />
         </div>
       );

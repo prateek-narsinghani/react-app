@@ -1,10 +1,10 @@
-export default function DestinationCard() {
+export default function DestinationCard(props) {
   return (
     <div className="card">
         <div className="card__body">
-            <img src=""></img>
-            <h2 className="card__title">sadasd</h2>
-            <p className="card__description"></p>
+            <img src={props.img}></img>
+            <h2 className="card__title">{props.title}</h2>
+            <p className="card__description">{props.description}</p>
         </div>
         <button className="card__button">Travel Here</button>
     </div>
