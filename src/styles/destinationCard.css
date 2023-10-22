@@ -1,0 +1,48 @@
+.destinationCardWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    gap:2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 100ms ease-in;
+  }
+  
+  .card:hover{
+    transform: scale(1.02);
+  }
+  
+  .card__img{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card__title{
+    color: black;
+    font-weight: 400;
+  }
+  .card__body {
+    font-weight: 200;
+  }
+  .card__button{
+    padding: 0.2rem;
+    background-color: white;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 2px;
+  }
+  
+  .card:hover .card__button{
+    background-color: rgb(95, 106, 226);
+  }

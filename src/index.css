@@ -1,4 +1,4 @@
-nav > img {
+nav>img {
   width: 40px;
   height: 40px;
   padding-right: 10px;
@@ -17,7 +17,7 @@ h1 {
   font-weight: 600;
 }
 
-.nav-elements > li {
+.nav-elements>li {
   margin-right: 10px;
   font-size: 20px;
   color: #fff;
@@ -42,7 +42,7 @@ h1 {
 }
 
 body {
-  background-color: #282D35;
+  background-color: #e3e6ea;
   min-height: 100%;
   height: 100%;
   margin-bottom: 0px;
@@ -50,10 +50,11 @@ body {
   font-family: 'Inter';
 }
 
-#destinations > ul {
+#destinations>ul {
   margin-top: 2px;
 }
-#destinations > ul > li {
+
+#destinations>ul>li {
   margin-left: 40%;
   list-style-position: inside;
   color: white;
@@ -62,16 +63,17 @@ body {
 }
 
 /* bullet color */
-#destinations > ul > li::marker {
+#destinations>ul>li::marker {
   color: #61DAFB;
   font-size: 1.5rem;
 }
 
-#destinations > h3 {
+#destinations>h3 {
   margin-top: 80px;
   margin-left: 42%;
-  color: #fff;
-  font-weight: 700;
+  color: black;
+  font-weight: 1000;
+  font-size: larger;
 }
 
 #destinations {
@@ -94,3 +96,4 @@ footer {
   text-align: center;
   color: white;
 }
+
