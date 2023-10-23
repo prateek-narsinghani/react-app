@@ -50,40 +50,7 @@ body {
   font-family: 'Inter';
 }
 
-#destinations>ul {
-  margin-top: 2px;
-}
 
-#destinations>ul>li {
-  margin-left: 40%;
-  list-style-position: inside;
-  color: white;
-  font-size: large;
-  padding-block: 5px;
-}
-
-/* bullet color */
-#destinations>ul>li::marker {
-  color: #61DAFB;
-  font-size: 1.5rem;
-}
-
-#destinations>h3 {
-  margin-top: 80px;
-  margin-left: 42%;
-  color: black;
-  font-weight: 1000;
-  font-size: larger;
-}
-
-#destinations {
-  padding: 57px 27px;
-  background-image: url("./images/background-image.png");
-  background-repeat: no-repeat;
-  height: 100%;
-  background-position-x: right;
-  background-position-y: 100px;
-}
 
 footer {
   /* to show footer at bottom */

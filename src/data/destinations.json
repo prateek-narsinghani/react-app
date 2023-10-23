@@ -1,0 +1,23 @@
+[
+    {
+        "destination": "Kashmir",
+        "image": "kashmir.jpg",
+        "description": "Heaven on Earth",
+        "tags": {
+            "terrain": [
+                "mountain"
+            ]
+        }
+    },
+    {
+        "destination": "Spiti",
+        "description": "Middle land",
+        "image": "spiti.jpg",
+        "tags": {
+            "terrain": [
+                "mountain",
+                "desert mountain"
+            ]
+        }
+    }
+]
