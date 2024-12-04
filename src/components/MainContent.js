@@ -5,9 +5,7 @@ import '../styles/mainContent.css'
 export default function MainContent() {
     const card = destinations.map(destination => (
         <DestinationCard
-            img={ require('../images/' + destination.image)}
-            title={destination.destination}
-            description={destination.description}
+            {...destination}
         />
     ))
     return (

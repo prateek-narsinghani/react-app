@@ -19,5 +19,15 @@
                 "desert mountain"
             ]
         }
+    },
+    {
+        "destination": "Goa",
+        "description": "Known for its beaches and culture",
+        "image": "goa.jpg",
+        "tags": {
+            "terrain": [
+                "beach"
+            ]
+        }
     }
 ]
